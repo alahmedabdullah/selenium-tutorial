@@ -1,0 +1,12 @@
+<suite name="ExpediaSearchPage">
+<test name="FillSearchInfo" preserve-order="true">
+<classes>
+	<class name="com.expedia.flightsbooking.TestNG_TestSuite">
+		<methods>
+			<include name="fillBasicInfo" />
+			<include name="fillAdvancedInfo" />
+		</methods>
+	</class>
+</classes>
+</test>
+</suite>
