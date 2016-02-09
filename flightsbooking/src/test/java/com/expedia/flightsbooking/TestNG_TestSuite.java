@@ -34,6 +34,8 @@ public class TestNG_TestSuite {
 
 	@Test
 	public void test1_fillBasicInfo() throws Exception {
+		//First Change
+		System.out.println("Flights booking test at expedia: ");
 		SearchPage.navigateToFlightsTab(driver);
 		SearchPage.fillOriginTextBox(driver, "New York");
 		SearchPage.fillDestinationTextBox(driver, "Chicago");
